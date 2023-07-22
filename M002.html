@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ES.css">
+    <title>Documentatie</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+          <div class="logo">
+            <a href="index.html">Dollzzy <span>H</span></a>
+          </div>
+          <input type="checkbox" id="menu-toggle">
+          <label for="menu-toggle" class="menu-icon">&#9776;</label>
+          <ul class="menu">
+            <li><a href="index.html">Acasa</a></li>
+            <li><a href="index.html">informatii</a></li>
+            <li><a href="#">Cauta</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <nav class="av">
+            <a href="index.html">Acasa</a>
+            <div class="s">/</div>
+            <a href="M001.html">Elemente</a>
+            <div class="s">/</div>
+            <a href="M002.html">Clase</a>
+        </nav>
+        <div class="t">Clase Elemente</div>
+        <div class="txt">
+            Elementelor li se pot atribui clase pentru a fi recunoscute de catre <e class="pl">Css</e> si <e class="pl">Javascript</e> mai usor
+            exemplu :
+        </div>
+        <div class="c">
+            <pre class="code">
+    < element    class=" aici scri un nume " >
+
+    < / element >
+            </pre>
+        </div>
+        <div class="txt">
+            Dupa ce scri un nume dupa care va fi recunoscut elementul il poti folosi in <e class="pl">Css</e>
+            pentru al stiliza exemplu:
+        </div>
+        <div class="t">Html</div>
+        <div class="c">
+            <pre class="code">
+< element    class="test" >
+                buna
+ < / element >
+            </pre>
+        </div>
+        <div class="t">Css</div>
+        <div class="c">
+            <pre class="code">
+    test {
+        color: red;
+    }
+            </pre>
+        </div>
+        <div class="t">Rezultat</div>
+        <div class="c">
+            <div class="out">
+                <div class="_EC1">Buna</div>
+            </div>
+        </div>
+
+        <div class="txt">
+            De ce punem <e class="e">.</e> [punct] in fata unui element in <e class="pl">Css</e>?
+            ei bine punem punct in fata elementului pentru ca <e class="pl">Css</e> sa stie ca elementul are o clasa si nu un ID.
+        </div>
+        <div class="t">Ce este un ID</div>
+        <div class="txt">
+            Va recomand sa vedeti: 
+            <a href="err.html" class="lk">&#9900 Id Element</a>
+            pentru mai multe informati si exemple
+        </div>
+        <div class="t">De ce nu merge?</div>
+        <div class="txt">
+            De retinut daca scrieti clasa elementulului cu litere mici ca exemplu:
+        </div>
+        <div class="c">
+            <pre class="code">
+< element    class="test" >
+    buna
+ < / element >
+            </pre>
+        </div>
+        <div class="txt">Atunci cand veti scrie numele dupa <e class="e">.</e> [punct] in <e class="pl">Css</e> numele il veti scrie tot cu litere mici sau cu literere mari daca asa ati scris numele exemplu:</div>
+        <div class="t">Css</div>
+        <div class="c">
+            <pre class="code">
+.test {
+      color: red;
+}
+            </pre>
+        </div>
+        <div class="c">
+            <pre class="code">
+.Test {
+      color: red;
+}
+            </pre>
+        </div>
+        <div class="txt">De aceasta este importatnt sa fi atent orice litera pe care o scri finca se poate sa nu fie recunoscut si codul dumneavoastra sa nu mearga </div>
+       
+        <div class="t">Trucuri VS code</div>
+        <div class="txt">
+            daca scrieti <e class="e">.</e> si apoi scrieti un nume se va crea automat un <e class="e">div</e> cu clasa numelelui pus
+        </div>
+        <div class="t">Daca scri</div>
+        <div class="c">
+            <div class="code">
+                .nume
+            </div>
+        </div>
+        <div class="txt">apoi apesi tasta <e class="e">Enter</e> se va crea elementul :</div>
+        <div class="t">Rezultat</div>
+        <div class="c">
+            <pre class="code">
+< elelemnt class="nume" >
+
+< / elelemnt >
+            </pre>
+        </div>
+       
+        <div class="t">Vedeti si:</div>
+            <a href="err.html" class="lk">&#9900 Id Element</a>
+            <a href="M001.html" class="lk">	&#9900 Element Html</a>
+            <div class="space"></div>
+    </main>
+</body>
+    <script src="main.js"></script>
+</html>
