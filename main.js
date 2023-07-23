@@ -1,6 +1,5 @@
 
-var errInfo = document.getElementById('errInfo'),
-     loge = document.querySelector('.log'),
+var  loge = document.querySelector('.log'),
      log = [];
 
     if (navigator.onLine) {
