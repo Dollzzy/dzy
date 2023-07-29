@@ -3,9 +3,9 @@ var  loge = document.querySelector('.log'),
      log = [];
 
     if (navigator.onLine) {
-        log.push('Network verification - online');
+        log.push('Verificare internet - online');
       } else {
-        log.push('Network verification - offline');
+        log.push('Verificare internet - offline');
       };
 
     loge.innerHTML = log; 

@@ -203,6 +203,7 @@ main {
     padding: 20px;
     border: 1px solid grey;
     color: white;
+    overflow-x: auto;
 }
 
 .c {
@@ -253,3 +254,86 @@ main {
   width: 100%;
   height: 100px;
 }
+
+.start {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.articoles {
+    width: 100%;
+  height: 1000px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.articole {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.articol {
+  width: auto;
+  min-width: 350px;
+  height: auto;
+  min-height: 50px;
+  background-color: #251161;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.articol:hover {
+  background-color: #341983;
+}
+
+.search {
+  width: 90%;
+  max-width: 500px;
+  height: 45px;
+  background-color: #39383b;
+  border: none;
+  transition: 0.5s;
+  color: white;
+  padding-left: 10px;
+  outline-width: 0;
+  border-radius: 10px;
+  border-left: 0px solid #251161;
+}
+.search:focus {
+  transition: 0.5s;
+  border-radius: 0;
+  border-left: 5px solid #251161;
+}
+
+.titlu {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: start;
+  padding-left: 10px;
+  align-items: center;
+  font-size: 18px;
+}
+
+.infoZone {
+  width: 100%;
+  height: 400px;
+  background-color: #341983;
+  border-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 27px
+}
+
